@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto podCast</title>
+    <!-- links fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@200;300;600&display=swap" rel="stylesheet">
+    <!-- links icons -->
+    <script src="https://kit.fontawesome.com/7366e2807d.js" crossorigin="anonymous"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-responsive-1140.css">
+    <link rel="stylesheet" href="styles/style-responsive-768.css">
+    <link rel="stylesheet" href="styles/style-responsive-600.css">
+</head>
+<body>
+    <!-- menu-desktop -->
+    <div class="container-general">
+        <div class="container-menu">
+            <img src="./img/logo.svg" alt="Logo">
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="#">EPISODIOS</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">ENTREVISTAS</a></li>
+                    <li><a href="#">TÓPICOS</a></li>    
+                </ul>
+            </nav>
+            <!-- menu-mobile -->
+            <div class="mobile-menu">
+                <input type="checkbox" id="navi-toggle" class="navigation-checkbox" />
+                <label for="navi-toggle" class="navigation-button">
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <div class="container">
+                        <div class="linea linea1"></div>
+                        <div class="linea linea2"></div>
+                        <div class="linea linea3"></div>
+                    </div>
+                </label>
+                <nav class="menu-list-mobile">
+                    <ul>
+                        <li><a href="#">EPISODIOS</a></li>
+                        <li><a href="#">NOSOTROS</a></li>
+                        <li><a href="#">ENTREVISTAS</a></li>
+                        <li><a href="#">TÓPICOS</a></li>    
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Description header -->
+        <div class="container-description">
+            <h1>Hello <span class="cross-out">world</span>  pale blue dot<span>.</span></h1>
+            <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button class="btn">CONOCE MÁS</button>
+        </div>
+        <!-- episodes -->
+        <div class="bg-azul"></div>
+        <div class="episodes">
+            <h2>Episodios</h2>
+            <div>
+                <img class="margin-desktop margin-mobile" srcset="img/embed1_.png 298w, img/embed1.png 584w" sizes="(max-width: 600px) 298px, (max-width: 967px) 298px, (max-width: 1350px) 430px, (max-width: 1368px) 500px, 584px" alt="episodio-1">
+                <img class="margin-desktop margin-mobile" srcset="img/embed2_.png 298w, img/embed2.png 584w" sizes="(max-width: 600px) 298px, (max-width: 967px) 298px, (max-width: 1350px) 430px, (max-width: 1368px) 500px, 584px" alt="episodio-2">
+                <img class="margin-mobile" srcset="img/embed3_.png 298w, img/embed3.png 584w" sizes="(max-width: 600px) 298px, (max-width: 967px) 298px, (max-width: 1350px) 430px, (max-width: 1368px) 500px, 584px" alt="episodio-3">
+                <img class="margin-mobile" srcset="img/embed3_.png 298w, img/embed4.png 584w" sizes="(max-width: 600px) 298px, (max-width: 967px) 298px, (max-width: 1350px) 430px, (max-width: 1368px) 500px, 584px" alt="episodio-4">
+            </div>
+        </div>
+        <!-- where we come from -->
+        <div class="we-come-from">
+            <div class="container-phone">
+                <img src="img/phone.png" alt="phone">
+            </div>
+            <div class="container-text">
+                <h2>De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </div>
+        <!-- guests -->
+        <div class="container-guests">
+            <h2>Invitadas/os estelares</h2>
+            <div class="guests">
+                <div><img src="img/grace-hopper.png" alt="grace-hopper"></div>
+                <div><img src="img/Katie-Bouman.png" alt="Katie-Bouman"></div>
+                <div><img src="img/Margaret_Hamilton.png" alt="Margaret_Hamilton"></div>
+                <div><img src="img/An-ERAUnivac_1103-computer-in-the-1950s.png" alt="An-ERAUnivac_1103-computer-in-the-1950s"></div>
+                <div><img src="img/Computer-operators.png" alt="Computer-operators"></div>
+                <div><img src="img/susan-kare.png" alt="susan-kare"></div>
+            </div>
+        </div>
+        <!-- our themes -->
+        <div class="container-themes">
+            <h2>Algunos de nuestros temas</h2>
+            <div class=" container-icons">
+                <div>
+                    <img src="img/icon1.svg" alt="Trabajo remoto">
+                    <p>Trabajo remoto</p>
+                </div>
+                <div>
+                    <img src="img/icon2.svg" alt="Repensando la programación">
+                    <p>Repensando la programación</p>
+                </div>
+                <div>
+                    <img src="img/icon3.svg" alt="Bases del código">
+                    <p>Bases del código</p>
+                </div>
+                <div>
+                    <img src="img/icon4.svg" alt="Seguridad informática">
+                    <p>Seguridad informática</p>
+                </div>
+            </div>
+        </div>
+        <!-- latest news -->
+        <div class="container-azul">
+            <h2>¿Querés las últimas novedades?</h2>
+            <button class="btn">ESCUCHÁ LOS EPISODIOS</button>
+        </div>
+        <div class="footer">
+            <p>© 2019— Hello blue pale dot</p>
+            <div class="networks">
+                <i class="fab fa-spotify"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-telegram"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

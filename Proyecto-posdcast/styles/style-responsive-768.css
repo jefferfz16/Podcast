@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+    .episodes h2 {
+        padding: 0;
+    }
+
+    .episodes {
+        top: 100px;
+        height: 650px;
+    }
+
+    .episodes .margin-mobile {
+        margin-bottom: 11px;
+    }
+
+    .bg-azul {
+        /* clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%); */
+        height: 780px;
+        top: 410px;
+    }
+
+    .we-come-from {
+    flex-direction: column;
+   }
+
+   .container-guests h2 {
+        padding: 0 50px;
+    }
+
+    .container-themes h2 {
+        padding: 0 50px;
+    }
+
+    .container-icons {
+        padding: 0 50px;
+    }
+
+    .container-icons > div {
+        width: calc(100% / 2 - 30px);
+    }
+
+    .container-icons > div:first-child, .container-icons > div:nth-child(2) {
+        margin-bottom: 15px;
+    }
+}

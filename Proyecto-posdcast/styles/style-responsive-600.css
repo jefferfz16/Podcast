@@ -1,0 +1,128 @@
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+
+    :root {
+        --bg-azul: linear-gradient(180deg, #0000FF 0%, #0000A3 100%);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .container-menu {
+        justify-content: space-between;
+        padding: 0 16px;
+        height: 44px;
+    }
+
+    .container-menu img {
+        width: 24px;
+    }
+
+    .menu-list-mobile {
+        top: 44px;
+    }
+
+    /* description */
+
+    .container-description {
+        padding: 0 16px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .container-description p {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    /* episodes */
+
+    .episodes {
+        padding: 0 16px;
+        height: 1080px;
+    }
+
+    .episodes h2 {
+        padding: 0 16px;
+    }
+
+    .bg-azul {
+        background-image: var(--bg-azul);
+        top: 360px;
+        height: 1250px;
+    }
+
+    /* where we come from */
+
+    .we-come-from {
+        padding: 0;
+    }
+
+    .we-come-from .container-phone img {
+        width: 320px;
+    }
+
+    .we-come-from .container-text {
+        padding: 0 16px;
+        margin-top: 50px;
+    }
+
+    /* guests */
+
+    .container-guests h2 {
+        padding: 0 16px;
+    }
+
+    .guests {
+        height: 1454px;
+    }
+
+    .guests div {
+        width: 100%;
+        height: calc(100% / 6);
+       }
+
+       .guests div img {
+           width: 320px;
+       }
+    
+    /* themes */
+
+    .container-themes {
+        margin-top: 50px;
+    }
+
+    .container-themes h2 {
+        padding: 0 16px;
+        margin-bottom: 20px;
+    }
+
+    .container-icons > div {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+}
