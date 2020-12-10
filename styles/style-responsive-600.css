@@ -61,8 +61,22 @@
     /* episodes */
 
     .episodes {
-        padding: 0 16px;
-        height: 1080px;
+        padding: 80px 16px;
+        height: 940px;
+    }
+
+    .epi {
+        width: 100%;
+        margin: 6px 0;
+        height: 225px;
+    }
+
+    .container-episodes {
+        height: 225px;
+    }
+
+    .container-episodes div:nth-child(3) {
+        margin-top: 0;
     }
 
     .episodes h2 {
@@ -71,14 +85,15 @@
 
     .bg-azul {
         background-image: var(--bg-azul);
-        top: 360px;
-        height: 1250px;
+        top: 415px;
+        height: 1240px;
     }
 
     /* where we come from */
 
     .we-come-from {
-        padding: 0;
+        padding: 80px 0 0;
+        margin-top: 150px;
     }
 
     .we-come-from .container-phone img {
@@ -112,8 +127,9 @@
     /* themes */
 
     .container-themes {
-        margin-top: 50px;
+        height: 800px;
     }
+    
 
     .container-themes h2 {
         padding: 0 16px;
@@ -123,6 +139,12 @@
     .container-icons > div {
         width: 100%;
         margin: 15px 0;
+    }
+
+    /* footer */
+    .container-azul {
+        padding: 0 16px;
+        height: 320px;
     }
 
 }
