@@ -372,6 +372,12 @@ button:focus {
     padding: 0 100px;
 }
 
-.networks i {
+.networks a i {
     margin: 0 18px;
+    color: var(--main-text-color);
+    transition: 0.4s;
+}
+
+.networks a i:hover {
+    color: var(--secondary-color);
 }

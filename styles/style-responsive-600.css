@@ -61,14 +61,13 @@
     /* episodes */
 
     .episodes {
-        padding: 80px 16px;
+        padding: 30px 16px;
         height: 940px;
     }
 
     .epi {
         width: 100%;
         margin: 6px 0;
-        height: 225px;
     }
 
     .container-episodes {
