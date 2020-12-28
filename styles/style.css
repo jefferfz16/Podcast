@@ -65,9 +65,10 @@ button:focus {
 
 .btn {
     background-color: var(--main-color);
-    padding: 16px 59px;
+    padding: 16px 40px;
     border: none;
     transition: 0.2s;
+    text-align: center;
 }
 
 .btn a {
