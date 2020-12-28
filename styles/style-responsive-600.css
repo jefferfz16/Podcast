@@ -85,13 +85,13 @@
     .bg-azul {
         background-image: var(--bg-azul);
         top: 415px;
-        height: 1240px;
+        height: 1300px;
     }
 
     /* where we come from */
 
     .we-come-from {
-        padding: 80px 0 0;
+        padding: 120px 0 0;
         margin-top: 150px;
     }
 
